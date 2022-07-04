@@ -1,0 +1,115 @@
+body{
+    background-image: url("pic2.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+
+}
+
+#container{
+    width:100%;
+    
+}
+
+#header{
+    color:rgb(192, 141, 141);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float:left;
+    font-size: xx-large;
+   
+}
+
+
+#pages{
+    float:right;
+    width:900px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+    
+}
+a{
+    color: rgb(250, 239, 218);
+    text-decoration:none;
+    margin: 30px;
+    
+    
+}
+
+a:hover{
+    color:rgb(145, 77, 209);
+}
+
+#all{
+    
+    position: absolute;
+    
+}
+.par{
+    
+    box-shadow: 0 0 20px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    width:400px;
+    height:400px;
+    margin-left:70px;
+}
+
+.par:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+#div1{
+    float: left;
+}
+#div2{
+    float: left;
+}
+#div3{
+    float: left;
+}
+
+.headindiv{
+    text-align: center;
+    color:rgb(145, 77, 209);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div p{
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top:10px;
+    font-size:large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+ ul {
+        list-style: none; 
+        list-style-position: inside;
+    }
+
+ul li::before {
+    content: "\2022"; 
+    color:rgb(145, 77, 209); ;
+    font-weight: bold;
+    
+    }
+
+li{
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top:10px;
+    font-size:large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2{
+    margin-left: 10px;
+    clear: both;
+    text-align:center;
+    color:rgb(145, 77, 209);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+}

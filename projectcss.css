@@ -1,0 +1,192 @@
+body{
+    background-image: url("pic2.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+
+
+#header{
+    color:rgb(192, 141, 141);
+    font-family: 'Lobster Two', cursive;
+    float:left;
+    font-size: xx-large;
+   
+}
+
+
+#pages{
+    float:right;
+    width:900px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+a{
+    color: rgb(250, 239, 218);
+    text-decoration:none;
+    margin: 30px;
+    
+    
+}
+
+a:hover{
+    color:rgb(145, 77, 209);
+}
+#first{
+    color:rgb(192, 141, 141);
+    font-size: 38px;
+    margin-top:-40px;
+    margin-bottom:-5px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+#second{
+    margin-top: -30px;
+}
+#third{
+    margin: -150px 0px 0px 490px  ;
+}
+#box{
+    clear: both;
+    margin:0px;
+    padding:40px 100px 100px 550px;
+    width:700px;
+    height: 100px;
+    display: block;
+    
+}
+#emai{
+    background-image: url("email.png");
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-color: rgb(250, 239, 218);
+    border: none;
+    width:400px;
+    height:58px;
+    font-size: 20px;
+    border-radius: 25px 0px 0px 0px;
+    margin:-2px ;
+    padding-left: 50px;
+    box-shadow: 0 0 20px;
+    
+    
+}
+button{
+    border-radius: 0px 0px 25px 0px;
+    height: 60px ;
+    width:70px;
+    margin:2px 0px 0px -2px ; 
+    padding-bottom: 4px;
+    border: none;
+    font-size: 21px;
+    background-color:rgb(248, 206, 213);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    box-shadow: 0 0 20px;
+    
+ 
+  }
+
+ 
+
+.newdivs{
+    float: left;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    width:220px;
+    height: 200px;
+    margin:32px;
+    padding:100px 100px;
+    box-shadow: 0px 0px 20px;
+    
+}
+ 
+
+
+.newdivs:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+h2{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(126, 85, 85);
+    margin: 65px auto;
+}
+#calendar h1{
+    margin-top: -50px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(126, 85, 85);
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.month {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: -100px;
+  padding: 70px 25px;
+  width: 370px;
+  background: rgb(192, 141, 141);
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: purple;
+  color: white 
+}
+
